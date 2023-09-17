@@ -1,3 +1,6 @@
+---
+tags: thinclients
+---
 Auch wenn die Standard-Distributionen mit der Zeit gehen und entsprechend höhere Anforderungen an die Hardware stellen, es gibt sie dennoch, die kleinen, aber feinen Linux(e)...
 Es ist alles eine Frage des Geschmackes und Anwendungsfall; viele Mini-Distributionen haben sogar vorkonfigurierte und von USB startbare Systeme anzubieten. Ohne jetzt einen Favoriten zu haben, anbei folgende kleine Übersicht:
 - www.puppylinux.com
