@@ -1,6 +1,6 @@
 Da mein uralt cgi-Eintrag/Link des ehemaligen Providers nicht mehr so richtig will, dachte ich mir diese Blogmaschine auch als Gaestebuch-Server zu verwenden.
 
-In Frage kommen sparsame perl-Skripte, die zu Hauf im Internet zu finden sind; mal mit mehr oder weniger Komfort und/oder Schnick-Schnack. Ich habe mich für OpenSource entschieden: http://fgguestbook.sourceforge.net/de/.
+In Frage kommen sparsame perl-Skripte, die zu Hauf im Internet zu finden sind; mal mit mehr oder weniger Komfort und/oder Schnick-Schnack. Ich habe mich für OpenSource entschieden: [http://fgguestbook.sourceforge.net/de/].
 
 Einbindung ist relativ simpel, hier und dort die Config anpassen und etwas am Layout feilen, fertig. Und wenn ich schon dabei bin/war: gleich dazu ein perl-basierender text-webcounter...
 
