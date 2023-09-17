@@ -1,3 +1,6 @@
+---
+tags: macintosh
+---
 ## linux PPC auf iMac G3
 Nun ja, es musste ja so kommen. Was macht man mit dem ganzen freien HDD-Platz neben Mac OS X? Da war doch was mit Linux PPC...
 Also schnell die üblichen Quellen angezapft und schnell wurde klar, dass debian ppc die beste Lösung sei.
