@@ -7,4 +7,4 @@ Es ist alles eine Frage des Geschmackes und Anwendungsfall; viele Mini-Distribut
 - www.damnsmalllinux.org
 
 Eine umfangreiche Übersicht findet man auf wikipedia. Obige Distris sind meine Favoriten, da diese auch die Hardware der Thin Clients unterstützen. Durch die mäßigen Hardwareanforderungen kann man damit einen Thin Client als Websurfstation, Emailserver oder wie hier als Blogplattform verwenden.
-[^1] Mittlerweile sind obige Distris in die Jahre gekommen 
+[^1]: Mittlerweile sind obige Distris in die Jahre gekommen 
