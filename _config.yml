@@ -41,6 +41,6 @@ defaults:
     values:
       tags: Other
       
- url: https://almeida.de     
- baseurl: "/blog"
- BASE_PATH : https://almeida.de/blog
+ #url: https://almeida.de     
+ #baseurl: "/blog"
+ #BASE_PATH : https://almeida.de/blog
