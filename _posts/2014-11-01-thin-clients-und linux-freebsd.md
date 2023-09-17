@@ -1,3 +1,6 @@
+---
+tags: thinclients
+---
 ## thin clients und linux/FreeBSD
 Hier möchte ich kurz auf eine sog. Hardware-Firewalllösung auf Basis von Linux/FreeBSD. Der Vorteil ist u.a. dass das home-Netzwerk mit den ganzen Rechnern "physisch" vom WWW getrennt sind.
 
