@@ -1,3 +1,4 @@
+## mac webserver
 Ich musste feststellen, dass MacHTTP doch nicht so stabil ist, wie immer erzählt wird. Der Webserver war nicht mehr ansprechbar; lag es an den vollen log-files? Diese wurden nämlich laut Statusfenster immer voller...
 Da NetPresenz eh als ftp-Server aktiv ist, habe ich diesen aktiviert. Das Verzeichnishandling ist zwar etwas unvorteilhaft, aber es geht.
 
