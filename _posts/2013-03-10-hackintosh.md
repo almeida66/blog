@@ -1,3 +1,7 @@
+---
+tags: hackintosh
+---
+
 Als ich den Beitrag in der ct' gelesen habe, war ich gleich Feuer und Flamme. Das Ganze hat einen gewissen Charme...
 Ich habe bisher nur PPC's gehabt und da kann man gerade noch mit linux rumspielen, aber auf einen billig x86 Mac OS X installieren...!
 
