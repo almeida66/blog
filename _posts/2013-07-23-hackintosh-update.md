@@ -7,11 +7,17 @@ Wichtig hierbei ist es den modifizierten Kernel immer beizubehalten. Immer!
 
 Hierzu oeffnet man einen Terminal und mittels sudo -s wird man root. Dann folgt das Kopieren der wichtigen Dateien:
 cp /mach_kernel /mach_kernel_old
+
 cp -R /system/library/coreservices/loginwindow.app /
+
 cp -R /system/library/extensions/AppleSMBIOS.kext /
+
 cp -R /system/library/extensions/AppleACPIplatform.kext /
+
 cp -R /system/library/extensions/AppleAPIC.kext /
+
 cp -R /system/library/extensions/IOATAFamily.kext /
+
 cp -R /system/library/extensions/system.kext /
 
 Das Unterverzeichnis ist natuerlich frei waehlbar; bei der Gelegenheit wird Disk-Utility gestartet.
