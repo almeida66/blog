@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+This is a backup of my private blog, powered by a mini-server, written in python. 
+Main points concern almost mini computer and data processing topics.
+Something like a private knowledge database.
