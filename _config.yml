@@ -42,5 +42,5 @@ defaults:
       tags: Other
       
  #url: https://almeida.de     
- permalink: "/blog"
+ #permalink: "/blog"
  #BASE_PATH : https://almeida.de/blog
