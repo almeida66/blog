@@ -1,3 +1,6 @@
+---
+tags: macintosh
+---
 ## airport am iMac G3
 Gar nicht mal so einfach eine Airportkarte am iMac zum Laufen zu bringen.
 Abgesehen davon, dass ich bzw. der iMac am OS 10.3.9 gebunden ist, halten sich die Softwareaktualisierungen in Grenzen, d.h. es gibt halt nichts neues.
