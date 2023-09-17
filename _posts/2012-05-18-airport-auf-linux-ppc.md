@@ -1,3 +1,6 @@
+---
+tags: macintosh
+---
 ## airport auf linux PPC
 Nach den ersten Installationshürden will man auch eine aktive WLAN-Verbindung am iMac G3 nutzen.
 
