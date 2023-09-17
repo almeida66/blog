@@ -1,3 +1,4 @@
+## airport auf linux PPC
 Nach den ersten Installationshürden will man auch eine aktive WLAN-Verbindung am iMac G3 nutzen.
 
 Je nach Airport-Karte (hier die "normale" mit Lucent orinoco) wird unter Linux PPC nur bis WPA-TKIP unterstützt.
