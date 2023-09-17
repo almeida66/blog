@@ -1,3 +1,6 @@
+---
+tags: thinclient
+---
 Die Verwendung möchte ich hier kurz beschreiben. Eine zeitlang hat man mit dieser Server-Client-Technik viel Geld in den Betrieben sparen wollen. Ich kann nicht behaupten, dass sich das wirklich durchgesetzt hat, denn Firmen setzen i. allg. weiter normale PC's ein.
 Das soll und nicht weiter stören, denn dafür werden diese Geräte zu Hauf in den üblichen Auktionshäusern angeboten.
 
