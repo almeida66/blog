@@ -1,3 +1,4 @@
+## thin clients und linux/FreeBSD
 Hier möchte ich kurz auf eine sog. Hardware-Firewalllösung auf Basis von Linux/FreeBSD. Der Vorteil ist u.a. dass das home-Netzwerk mit den ganzen Rechnern "physisch" vom WWW getrennt sind.
 
 In heise wird u.a. eine einfache Netztrennung mit DMZ beschrieben, wofür man nur einen Zusatzrouter benötigt. Hier gehe ich halt weiter und hänge dazwischen einen Thin Client mit pfsense als Firewall ein. Idealerweise sollte dieser 2 Netzwerkports haben oder zumindestens noch einen Steckplatz oder USB für ein Netzwerkadapter besitzen. Empfehlung: Wyse 9450XE. Hier ist ein PCI-Steckplatz vorhanden und hat 2 IDE-Schnittstellen.
