@@ -1,3 +1,6 @@
+---
+tags: macintosh
+---
 ## macintosh LC
 Nun, da der SE/30 doch etwas mehr defekt war als erwartet, musste Ersatz her. Zufällig war gerade ein Macintosh LC günstigst zu kriegen (Porto war teurer).
 Angekommen, aufgeschraubt, eingeschaltet: es scheint zu funktionieren. Nur kein Bild, mangels passenden Stecker und Adapter, denn alte Macs sind da etwas eigen und kodieren ihren Monitorausgang mit den sog. Sensepins.
