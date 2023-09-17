@@ -1,3 +1,6 @@
+---
+tags: macintosh
+---
 ## mac webserver II
 Es ist vollbracht; die perl-Skripte habe ich nun mit viel Muehe (da kein perl-Experte) auf Macperl umgestellt und Gaestebuch sowie Blogsystem auf den alten Mac LC 475 aufgesetzt.
 
