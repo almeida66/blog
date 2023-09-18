@@ -42,6 +42,6 @@ defaults:
       tags: Other
       
  #url: "almeida66.github.io"   
- baseurl: /blog
+ #baseurl: /blog
  #permalink: /:title
  #
