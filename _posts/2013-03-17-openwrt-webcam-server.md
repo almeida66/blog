@@ -9,5 +9,5 @@ Grob kann man bei USB-Webcams zwischen UVC- und GSPCA-Treibermodule unterscheide
 Gemaess der Info-Seite unter OpenWrt sind diverse Module zu usb-video notwendig und mjpg-streamer. Damit kann man ein "Dauerbild" erzeugen und das Ganze dem zug. http-Server bereitstellen.
 
 Das war nun die eine Möglichkeit, ich wollte aber alle paar Minuten Aufnahmen zu einem externen Server senden. Die Lösung war wput (statt wget); damit werden in einem batch-Script die Aufnahmen per ftp auf das Homepageverzeichnis übertragen.
-Das Ganze wird beim Start dem Router als Befehlskette (mjpg_streamer -i "input_uvc.so -d /dev/video0 -f 5 -r 640x480" -o "output_file.so -d 600000 -f /www/webcam -s 1 -c /usr/bin/wput-provider.sh") mitgegeben. Hierbei wird eine Zeitvorgabe, Ablageort, Anzahl Aufnahmen und der Verweis auf den batch-Script angegeben.
+Das Ganze wird beim Start dem Router als Befehlskette (`mjpg_streamer -i "input_uvc.so -d /dev/video0 -f 5 -r 640x480" -o "output_file.so -d 600000 -f /www/webcam -s 1 -c /usr/bin/wput-provider.sh"`) mitgegeben. Hierbei wird eine Zeitvorgabe, Ablageort, Anzahl Aufnahmen und der Verweis auf den batch-Script angegeben.
 Der TL-MR3020 selbst wird als WLAN-Client konfiguriert und hat über das Netzwerk Verbindung zur Aussenwelt. Ggf. ist auch ein Eintrag über Dyndns möglich.
