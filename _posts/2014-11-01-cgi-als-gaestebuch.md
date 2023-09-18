@@ -6,6 +6,7 @@ Einbindung ist relativ simpel, hier und dort die Config anpassen und etwas am La
 
 Üblicherweise wird dies unter Linux beim Ordner /www oder vergleichbares kopiert, die Rechtevergabe und (bad word)Textfilter gegen böse Finger angepasst.
 
-Ich hoffe es kommen nur nette Einträge...[^note]
+Ich hoffe es kommen nur nette Einträge...
 
-[^note]:Nachtrag: das Ganze habe ich offline, aufgrund diverser Spamangriffe :(
+>[!NOTE]
+>Nachtrag: das Ganze habe ich offline, aufgrund diverser Spamangriffe :(
