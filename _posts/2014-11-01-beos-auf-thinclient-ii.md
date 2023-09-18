@@ -1,5 +1,5 @@
 ---
-tags: beos
+tags: beOS
 ---
 ## BeOS auf thinclient II
 Mittlerweile arbeitet der BeOS-webserver auf einen Futro A250; der Wyse S0 hatte gelegentliche Hänger, dabei ist/war wohl eher der webserver Schuld. Nach ca. 5 Tagen passiert das auch auf dem leistungsstärkeren Futro.
