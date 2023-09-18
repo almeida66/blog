@@ -41,7 +41,7 @@ defaults:
     values:
       tags: Other
       
- url: "almeida66.github.io"   
+ #url: "almeida66.github.io"   
  baseurl: /blog
- permalink: /:title
+ #permalink: /:title
  #BASE_PATH : https://almeida.de/blog
