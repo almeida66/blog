@@ -20,23 +20,16 @@ Das Unterverzeichnis ist natuerlich frei waehlbar; bei der Gelegenheit wird Disk
 So, nun bei apple die zug. Updates, wie z.B. 10.4.9, 10.4.10, 10.4.11 runterladen. Immer nur ein Versionssprung installieren UND nicht neu starten.
 
 Es folgt die Wiederherstellung der Dateien mit:
-
+```
 cp /mach_kernel_old /mach_kernel
-
 cp -R /loginwindow.app /system/library/coreservices/
-
 cp -R /AppleSMBIOS.kext /system/library/extensions/
-
 cp -R /AppleACPIplatform.kext /system/library/extensions/
-
 cp -R /AppleAPIC.kext /system/library/extensions/
-
 cp -R /IOATAFamily.kext /system/library/extensions/
-
 cp -R /system.kext /system/library/extensions/
-
 rm -rf /system/library/extensions.*
-
+```
 Danach mittels Disk-Utility die Rechte prüfen und korrigieren lassen. Egal was das System von sich gibt. Neustart!
 
 Der Neustart sollte erfolgreich sein; moeglich dass je nach Hardware ein zweiter Neustart erforderlich ist, bis alle Treiber angesprochen werden.
