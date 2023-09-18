@@ -6,4 +6,4 @@ Aber da war doch noch irgendwo eine Rescue-CD mit allen möglichen kleinen Tools
 Hier haben sich [mhdd](http://hddguru.com/), Vivard und [hdat2](http://www.hdat2.com/) als besonders nützlich gezeigt.[^note]
 Nun, es dauert Stunden bis so ein Durchlauf mit remap vorbei ist, aber in den meisten Fällen arbeiten solche Festplatten noch einige tausend Stunden weiter. Allerdings würde ich denen keine wichtige Daten mehr anvertrauen :) ...
 
-[^note]: Nun ja, inzwischen (2023) existieren Unmengen an rescue-Tools
+[^note]: Nun ja, inzwischen (2023) existieren Unmengen an [rescue-Tools](https://www.heise.de/download/products/sicherheit/datenrettung#?cat=sicherheit%2Fdatenrettung)
