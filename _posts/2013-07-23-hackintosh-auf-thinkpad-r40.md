@@ -6,7 +6,7 @@ Nachdem im Zuge der OS/2 Warp Installation nun ein [ThinkPad R40](http://thinkwi
 
 Die fehlenden Treiber bietet nun Lenovo an, der Rest ist Probieren...
 
-Idealerweise fängt man mit eine Live-LinuxCD und teilt mittels gparted die HDD ein, z.B. sda1=winxp, sda2=OSx86, sda3=linux usw. Start-Installation wird nun Windows sein, danach sollte man Mac OS installieren. Hierbei wird (hier) mittels fdisk -e /dev/rdisk0 und flag 2, update, write, quit, reboot die 2te Partition für Mac OS als Bootpartition gesetzt. Mac OS Installation starten, Partition formatieren und die geeigneten Treiber auswählen (ThinkPads sind etwas heikel). Neustart unbedingt mit Flag -f durchführen. Testen!
+Idealerweise fängt man mit eine Live-LinuxCD und teilt mittels gparted die HDD ein, z.B. sda1=winxp, sda2=OSx86, sda3=linux usw. Start-Installation wird nun Windows sein, danach sollte man Mac OS installieren. Hierbei wird (hier) mittels `fdisk -e /dev/rdisk0` und flag 2, update, write, quit, reboot die 2te Partition für Mac OS als Bootpartition gesetzt. Mac OS Installation starten, Partition formatieren und die geeigneten Treiber auswählen (ThinkPads sind etwas heikel). Neustart unbedingt mit Flag -f durchführen. Testen!
 
 Jetzt (oder später) von der Installations-DVD den Unterordner i386 auf usb o.ä. kopieren; dieser ist versteckt (Stichwort: hidden) unter /usr/standalone/i386!
 
