@@ -1,5 +1,5 @@
 ---
-tags: thinclient
+tags: beOS
 ---
 ##BeOS auf thinclient
 Da BeOS auf Laptops durchaus funktioniert hatte ich ja getestet, aber das sollte doch energiesparender sein. Viele ThinClients verwenden die CPU's von VIA; die sind ja nicht schlecht, werden aber nicht wirklich von alter Software unterstützt.
