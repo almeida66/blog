@@ -8,11 +8,8 @@ Der Beitrag ist eher für meinen Gebrauch gedacht (lange habe ich gesucht); der 
 Hier explizit ein Beispiel einer Weiterleitung zwecks dynamisches DNS:
 ```
 =>service host add name HAMA mode server
-
 =>service host rule add name HAMA protocol tcp portrange 8081
-
 =>service host assign name HAMA host 192.xx.yy.zz
-
 =>saveall
 ```
 Warum das Ganze? Bei meiner Zusammenstellung wurde der BeOS-webserver nicht im GUI angezeigt; somit keine Möglichkeit diesen per GUI als solchen zu konfigurieren.
