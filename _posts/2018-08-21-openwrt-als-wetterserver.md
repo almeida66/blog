@@ -13,7 +13,7 @@ Für obigen Router ist die Version 14.07 am ehesten geeignet, wir benötigen etw
 
 Danach dieses mittel `opkg install kmod-usb-storage block-mount kmod-fs-ext4 kmod-scsi-core` laden.
 Wenn das geklappt hat, einen formatierten USB-Stick einstecken und mounten. Das Systemverzeichnis mittels `tar -C /overlay -cvf - . | tar -C /mnt/usb -xvf` - auf den Stick übertragen und nun unter /etc/config/fstab die Verzeichnisse anpassen:
-´´´
+```
 config 'mount'
 option target /overlay
 option device /dev/sdx1
@@ -21,7 +21,7 @@ option fstype ext4
 option options rw,sync
 option enabled 1
 option enabled_fsck 0
-´´´
+```
 Und erst jetzt ein reboot. Wenn man kein Fehler gemacht hat, stehen nun unendlich viele Gbytes zur Verfügung...
 
 Ich verwende das kostenlose [wview](https://sourceforge.net/projects/wview/) für die Datenübertragung von der Wetterstation
