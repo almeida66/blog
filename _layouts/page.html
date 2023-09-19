@@ -1,0 +1,13 @@
+---
+layout: default
+title: Posts
+tagline: Every post
+ref: blog
+---
+
+<ul class="post-list">
+{% for post in paginator.posts %}
+<li>
+   ...
+</li>
+{% endfor %}
