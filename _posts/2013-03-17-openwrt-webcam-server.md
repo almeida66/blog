@@ -1,5 +1,5 @@
 ---
-tags: openwrt
+tags: OpenWrt
 ---
 Ich weiss gar nicht wie anzufangen. Eigentlich war der Plan aus meiner alten parallelport Webcam von Creative Labs mit einem ThinClient ein Webcamserver aufzubauen. Bei der Suche stolperte ich immer wieder über <http://www.openwrt.org> und Minirouter wie z.B. der TL-MR3020 (baugleich mit TL-WR703N).
 Also her damit, so teuer war die Hardware nicht und zur Not kann man diese noch anderweitig nutzen.
