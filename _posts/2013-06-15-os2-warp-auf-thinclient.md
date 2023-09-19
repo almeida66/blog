@@ -1,5 +1,5 @@
 ---
-tags: thinclient
+tags: thinclients
 ---
 ## OS/2 warp auf thinclient
 Ja, dieses Betriebssystem lebt noch weiter, zumindestens mit aktualisierten Treibern als <http://www.ecomstation.com>.
