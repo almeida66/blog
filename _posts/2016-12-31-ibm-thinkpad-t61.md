@@ -8,4 +8,4 @@ Zum Glueck mit den nicht so anfaelligen Grafikchips von Intel, nicht besonders p
 
 Auch diesmal - es ist bereits ein Lenovo ThinkPad, aber die Tastatur ist wie immer eine Wucht.
 
-Hier besonders zu empfehlen, den gemoddeten Middleton **BIOS** fuer SATA 2. Alles andere in der bereits bekannten [Thinkwiki](http://www.thinkwiki.de/T61) homepage. Desweiteren diese spezielle Fundstelle: <http://t61.wikispaces.com/>. 
+Hier besonders zu empfehlen, den gemoddeten Middleton **BIOS** fuer SATA 2. Alles andere in der bereits bekannten [Thinkwiki](http://www.thinkwiki.de/T61) homepage. Desweiteren diese spezielle Fundstelle: [t61.wikispaces.com](https://web.archive.org/web/20170311022700/http://t61.wikispaces.com/). 
