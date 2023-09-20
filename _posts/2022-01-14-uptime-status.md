@@ -11,7 +11,7 @@ Erstmal das Lieblings-Linux [Debian](https://raspi.debian.net/) fuer den passend
 Beim Erststart wird die SD-Karte automatisch vollstaendig zur Nutzung vorbereitet; LAN funktioniert via dhcp, WLAN muss nachtraeglich unter *interfaces.d* mit den eigenen Zugangsdaten gefuettert werden. Ein `ifup wlan0` hilft.
 
 Ich habe vermutlich die schwierige Variante ohne docker installiert; naemlich ueber den **nvm-installer**. Das geht aber auch direkter mit:
-`curl -sSL https://deb.nodesource.com/setup_1y.x | sudo bash [y=akt. Index!]`
+`curl -sSL https://deb.nodesource.com/setup_1y.x | sudo bash` [y=akt. Index!]
 
 danach ein `apt install -y nodejs` ; anschliessend ein Test mit `node --version bzw. npm --version`.
 
