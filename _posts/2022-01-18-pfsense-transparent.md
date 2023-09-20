@@ -4,7 +4,7 @@ Da ich es selber immer wieder vergesse und das [pfsense](https://docs.netgate.co
 2. Unter *System/Advanced* jeweils **net.link.bridge.pfil_bridge** bzw. **_member** umstellen *[1 bzw. 0]*
 3. Unter *Interfaces/Bridge* eine neue **Bridge** erstellen (WAN+LAN)
 4. Bei *Interfaces/Assig* die neue bridge in die Konfiguration *addieren*
-5. Das neue Interface aktivieren und eine **statische Adresse** + Gateway vergeben
+5. Das neue Interface *aktivieren* und eine **statische Adresse** + Gateway vergeben
 6. Bei *Services* ggf. vorhandene DHCP(v4+6) **inaktivieren**
 7. Bei *Interfaces* LAN+WAN jeweils auf **none** stellen und Filter entfernen
 8. Bei *Firewall* die Grundkonfig für WAN erstellen: **IPv4+6 * pass**
