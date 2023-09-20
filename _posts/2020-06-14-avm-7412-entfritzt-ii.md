@@ -1,6 +1,7 @@
 ---
 tags: OpenWrt
 ---
+## AVM 7412 entfritzt II
 Es folgen die Angaben für den adblock-Addon.
 
 Im Zusammenhang mit stubby werden Werbung und sog. Tracker auf DNS-Ebene gefiltert.
