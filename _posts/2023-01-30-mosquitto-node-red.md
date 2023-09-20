@@ -4,7 +4,7 @@ Habe diese später auf einem Raspi0 zusammengefasst.
 
 Man faengt mit dem sog. **MQTT** broker, namens [mosquitto](https://mosquitto.org/), an. Dieser bedient dann unter der eigenen IP den Port 1883. In der Konfig sollte man fuer interne Zwecke den *allow_anonymous* auf *true* stellen.
 
-Danach folgt das Visualisierungs-Tool [node-red](https://nodered.org/); für das Einbinden der DTU, samt Weiterleitung an thingspeak.
+Danach folgt das Visualisierungs-Tool [node-red](https://nodered.org/); für das Einbinden der DTU, samt Weiterleitung an [thingspeak](http://thingspeak.com).
 
 Bei raspi-debian macht die Installation via **apt** Stress; moeglich dass das Paket fuer armhf nicht sauber ist.
 Dafuer existiert auf github diese Variante via npm: `bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)`.
