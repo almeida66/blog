@@ -1,6 +1,7 @@
 ---
 tags: OpenWrt
 ---
+## OpenWrt und mesh II
 Wir steigen dann in die Kommandozeile und geben ein `nano /etc/config/wireless`
 
 Am Ende der Datei geben wir ein:
@@ -31,4 +32,5 @@ Weiter beim Router 2,3,4,.. MP (Mesh-Point); analog zu oben, aber:
 
 Fertich. Router 2,3,4 können OHNE LAN-Anschluss rumstehen und dasselbe WLAN zur Verfügung stellen, während im Hintergrund das Mesh-Netz alle miteinander verbindet.
 
->[!NOTE] >obige Topologie ist ein Beispiel, in dem es eine gewollte Trennung zw. DSL-Router und internes Netzwerk umgesetzt wird. Man kann natürlich direkt am DSL-Router hängen, d.h. der sog. MAP wird auch als MP aufgesetzt.
+>[!NOTE]
+>obige Topologie ist ein Beispiel, in dem es eine gewollte Trennung zw. DSL-Router und internes Netzwerk umgesetzt wird. Man kann natürlich direkt am DSL-Router hängen, d.h. der sog. MAP wird auch als MP aufgesetzt.
