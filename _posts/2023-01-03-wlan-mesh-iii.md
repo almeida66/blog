@@ -1,7 +1,7 @@
 ---
 tags: OpenWrt
 ---
-## OpenWrt und wlan-mesh iii
+## OpenWrt und mesh iii
 Quasi die Fortfuehrung; aufgefallen bei der Aktualisierung der Systeme auf 22.03. Mittlerweile ist die Anleitung unter [openwrt](https://openwrt.org/docs/guide-user/network/wifi/mesh/80211s) auch verstaendlicher geworden.
 
 Nach dem Upgrade und dem Update der Pakete via opkg, schmeisst man **wpad-basic-wolfssl** raus. Vermutlich vom Geraetetyp und/oder Installation abhaengig; ich verwende nur Router vom Chiptyp Atheros, die funktionieren am problemlosesten. **Wpad-mesh-openssl** ist uebrigens meist zu gross (1,7MB).
