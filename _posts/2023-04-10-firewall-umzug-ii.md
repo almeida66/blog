@@ -15,6 +15,7 @@ Dadurch bin/war ich in der Lage diverse mini-Server zusammen zu packen.
 Ausser der eigentlichen Installation des akt. proxmox (debian!) koennen fuer sog. Container und/oder virtuelle Maschinen folgende [Hilfsskripte](https://tteck.github.io/Proxmox/) verwendet werden; die VMs werden mit Hilfe der Installationsdateien (ISO) aufgebaut.
 
 Als *Container* laufen: **AdGuard, Gopher, MQTT und node-red**
+
 Als *VM*: **pfsense und ein NetBSD-webserver**
 
 Testbetrieb folgte... und es funktioniert trotz nur 8GB RAM. Eine Backup-HDD kam via SATA hinzu und dient fuer die eingebaute Backup-Funktion als externe Plattform.
