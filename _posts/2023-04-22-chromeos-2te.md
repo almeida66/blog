@@ -11,4 +11,4 @@ Diesmal hab ich Win10 ausprobiert und siehe da - es funktioniert. Die intenso SS
 
 Die andere Seite sind die **ARM-Chromebooks**, wie der samsung **chromebook XE303C12**, alias [snow](https://github.com/hexdump0815/linux-mainline-on-arm-chromebooks). Diese Systeme haben kein richtiges BIOS, sondern werden via *uboot* bedient. Das Entsperren ist identisch zu ihren intel Pendanten, nur wird wie beim *recovery* ein adaptiertes Startmedium mit dem Betriebssytem der Wahl reingeschrieben. Dafuer muss in der *chronos-shell* ein `su` ausgefuerht werden und `crossystem dev_boot_usb=1 dev_boot_signed_only=0` eingegeben werden. Damit startet das System von USB oder SD.
 
-Und zu guter letzt ein **Acer C720**, alias peppy, mit einem celeron 2995U mit 1.4GHz. Schade dass die 2te M.2 keine SSD aufnimmt bzw. nicht intern kontaktiert ist.
+Und zu guter letzt ein **Acer C720**, alias peppy, mit einem celeron 2995U mit 1.4GHz. Und die SSD ist tatsächlich gesteckt, also mit der Option >16GB...
