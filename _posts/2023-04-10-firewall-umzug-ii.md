@@ -20,4 +20,6 @@ Als *VM*: **pfsense und ein NetBSD-webserver**
 
 Testbetrieb folgte... und es funktioniert trotz nur 8GB RAM. Eine Backup-HDD kam via SATA hinzu und dient fuer die eingebaute Backup-Funktion als externe Plattform.
 
-[^note]:Man kann einen 2ten LAN-Anschluss via VLANs simulieren, aber fuer eine firewall sollte schon eine echte LAN-Karte verwendet werden; schon aus Gründen einer möglichen Misskonfiguration - je nach Umfang der Topologie
+[^note]: Man kann einen 2ten LAN-Anschluss via VLANs simulieren, aber fuer eine firewall sollte schon eine echte LAN-Karte verwendet werden; schon aus Gründen einer möglichen Misskonfiguration - je nach Umfang der Topologie
+
+![](http://almeida66.github.io/blog/img/interface1.png)
