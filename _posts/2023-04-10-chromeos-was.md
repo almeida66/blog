@@ -2,7 +2,7 @@
 tags: libreboot
 ---
 ## ChromeOS, was?
-Spielerei, aber die Chromebooks sind im Gegensatz zu den lahmen Netbooks a lá EEE und Co schon recht flott. Waere da nicht dieses unsaegliche ChromeOS - wenn man es mag... ist mir zu handyartig... und neugierig.
+Spielerei, aber die Chromebooks sind im Gegensatz zu den lahmen Netbooks a lá *eee* und Co schon recht flott. Waere da nicht dieses unsaegliche ChromeOS - wenn man es mag... ist mir zu handyartig... und neugierig.
 
 Hab nen Toshiba [CB30-B-104](https://www.notebookcheck.com/Test-Toshiba-Chromebook-2-CB30-B-104.147309.0.html) ergattert, alias Swanky, Bay Trail mit 2 cores als 13". Kleines Schoenheitsfehler - die aufgeloetete eMMC mit 16GB; kann man mit USB3-SSD-Adapter oder SD-Karte umgehen - Platz waere im Innern des Gehaeuses vorhanden.
 
