@@ -8,3 +8,5 @@ Ich weiss auch nicht, da reden alle vom NSA-Lauschangriff, aber darauf scharf se
 Ahem, halloooooooooooo...(!) ich zitiere mal den Kabarettisten Nuhr: *<<wenn man keine Ahnung hat, einfach mal...>>* die Finger von lassen.
 
 Dazu kommt der aktuelle Wunsch einiger DSL-Anbieter den Routerzwang durchzusetzen.
+
+>[!NOTE] [Aktuelles](https://www.heise.de/news/Fritzbox-Firmware-7-57-und-7-31-von-AVM-dichten-Sicherheitsluecke-ab-9294758.html): vielleicht kein Desaster, aber sogar alte AVM-Router haben einen Update erhalten
