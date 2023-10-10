@@ -12,4 +12,5 @@ Je nach Modell kommt dann sowas zustande:
 
 dns, odhcpd, ppp, firewall, iptables kommen weg, dafür die mesh-Variante des wpad und die minimale LuCi Installation mit zusätzl. Netzwerk-mod (der besseren Übersicht halber).
 Der Empfang ist vielleicht nicht schneller geworden, dafür stabiler, dank separater Nutzung der Datenkanäle.
+
 [^note]: siehe [linux-magazin](https://www.linux-magazin.de/ausgaben/2022/02/wlan-mesh-teil-1/)
