@@ -11,6 +11,6 @@ Je nach Modell kommt dann sowas zustande:
 ```base-files busybox ca-bundle dropbear fstools kmod-gpio-button-hotplug kmod-leds-gpio kmod-mt7603 kmod-mt76x2 kmod-nft-offload libc libgcc libustream-wolfssl logd mtd netifd opkg procd procd-seccomp procd-ujail swconfig uci uclient-fetch urandom-seed urngd wpad-mesh-wolfssl mesh11sd uhttpd luci-mod-admin-full luci-base libiwinfo-lua luci-theme-bootstrap luci-mod-network```
 
 dns, odhcpd, ppp, firewall, iptables kommen weg, dafür die mesh-Variante des wpad und die minimale LuCi Installation mit zusätzl. Netzwerk-mod (der besseren Übersicht halber).
-Der Empfang ist vielleicht nicht schneller geworden, dafür stabiler, dank separater Nutzung der Datenkanäle.
+Der Empfang/Geschwindigkeit ist vielleicht nicht schneller geworden, dafür stabiler, dank separater Nutzung der Datenkanäle.
 
 [^note]: siehe [linux-magazin](https://www.linux-magazin.de/ausgaben/2022/02/wlan-mesh-teil-1/)
