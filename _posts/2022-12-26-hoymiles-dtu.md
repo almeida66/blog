@@ -12,4 +12,4 @@ Dann *reboot* und nach dem Zugang *192.168.4.1* suchen; dort die passende Eintra
 
 Beide Systeme unterscheiden sich alleine durch den Chip: entweder ESP32 oder halt ESP8266. Der Output ist voellig ausreichend. Wer jetzt diesen weiterverarbeiten will, dann kommen u.a. die broker-Software **mosquitto** und die Visualisierungs-Software **node-red** in Frage.
 
-[^note]: hier noch D2 (CE) undf D1 (IRQ); ein Update hat mir diese Einstellungen zerschossen
+[^note]: hier noch D2 (CE) und D1 (IRQ) beachten - typanhängig; ein Update hat mir diese Einstellungen zerschossen
