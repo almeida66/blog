@@ -17,7 +17,7 @@ reset
 Die notwendigen Dateien sind im jew. release unter *kirkwood* vorhanden. Dann das Netzwerk fuers tftp-mini-server:
 ```
 setenv ipaddr 192.168.1.2
-setenv serverip 192.168.1.101
+setenv serverip 192.168.1.10
 tftpboot u-boot.kwb
 nand erase 0x0 0x100000
 nand write 0x800000 0x00000 0x100000
@@ -30,7 +30,7 @@ setenv bootcmd 'run setenv bootargs; ubi part ubi; ubi read 0x800000 kernel; boo
 saveenv
 reset
 ```
-Die MAC-Adresse VORHER aufschreiben und abspeichern:
+Die MAC-Adresse VORHER aufschreiben und jetzt abspeichern:
 ```
 setenv ethaddr AB:CD:EF:00:00:00
 saveenv
@@ -42,4 +42,4 @@ fatload usb 0 0x2000000 firmware.bin
 nand erase.part ubi
 nand write 0x2000000 ubi 0x600000
 ```
-Ein abschliessendes `reset` tut gut. Dann sollte ein frisches OpenWrt starten, das anschliessende Update geht ueber die OpenWrt-Oberflaeche.
+Ein abschliessendes `reset` tut gut. Dann sollte ein frisches OpenWrt starten, das anschliessende Update geht ueber die OpenWrt-Oberflaeche. Ich sollte beim Code  vielleicht ein (c)OpenWrt setzen, ist schliesslich deren Vorarbeit.
