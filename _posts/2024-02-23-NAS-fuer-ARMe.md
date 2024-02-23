@@ -1,6 +1,7 @@
 ---
 tags: ARM
 ---
+## NAS fuer ARMe
 Wie der Titel schon sagt: eine NAS (Network Attached Storage) und wieder mal mit ARM-Technologie. Zwei Schaechte genuegen um die Foto- und Musik-Sammlung auf HDD/SDD zu speichern. Hab wieder was recycelt, schon der Umwelt wegen. Eine Zyxel [NSA325v2](https://openwrt.org/toh/hwdata/zyxel/zyxel_nsa325) und eine QNAP TS-228.
 Erstere kann OpenWrt vertragen (kirkwood), analog zum bereits beschriebenen pogoplug, die Zweite vertraegt aktuell nur QNAP-eigene Firmware, dafuer wird diese noch regelmaessig aktualisiert. Keine RAM-Monster, aber mit 1Gb geht schon was. Die LAN-Landschaft ist eh etwas inhomogen und stellenweise "nur" bis 100Mbit ausgelegt.
 
