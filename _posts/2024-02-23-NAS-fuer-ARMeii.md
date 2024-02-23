@@ -8,7 +8,7 @@ Idealerweise alles via putty und der Kommandozeile; die paar Packages werden via
 ```
 opkg kmod-usb-storage kmod-usb3 nfs-kernel-server nfs-kernel-server-utils kmod-loop mdadm
 ```
-Das eine oder andere wie hdparm oder smartctl kann ja nachgeladen werden; vielleicht noch nsfv4. Unter /etc/exports wird der Server samt MountPoint angegeben.
+Das eine oder andere wie hdparm oder smartctl kann ja nachgeladen werden; vielleicht noch nsfv4. Unter */etc/exports* wird der Server samt MountPoint angegeben.
 >[!NOTE] hier wird ein RAID gebastelt, somit wird aufgrund der OpenWrt-Datenstruktur unter */var/data* ein lesbares Verzeichnis mit `chmod -R a+rw /data` schreibend gemacht UND unter */etc/init.d/boot* mit mkdir nachgetragen.
 
 Warum? Weil - wie der Name schon sagt - *var* wird quasi imaginär gebildet und beim booten neu aufgebaut. NFS, alias mdadm, benoetigt beim booten den Pfad, sonst bleibt es haengen und damit kein RAID.
