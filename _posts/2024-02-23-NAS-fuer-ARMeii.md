@@ -9,12 +9,12 @@ Idealerweise alles via putty und der Kommandozeile; die paar Packages werden via
 opkg kmod-usb-storage kmod-usb3 nfs-kernel-server nfs-kernel-server-utils kmod-loop mdadm
 ```
 Das eine oder andere wie hdparm oder smartctl kann ja nachgeladen werden; vielleicht noch nsfv4. Unter /etc/exports wird der Server samt MountPoint angegeben.
->[!NOTE] hier wird ein RAID gebastelt, somit wird aufgrund der OpenWrt-Datenstruktur unter */var/data* ein lesbares Verzeichnis mit `chmod -R a+rw /data` schreibend gemacht UND unter /etc/init.d/boot mit mkdir nachgetragen.
+>[!NOTE] hier wird ein RAID gebastelt, somit wird aufgrund der OpenWrt-Datenstruktur unter */var/data* ein lesbares Verzeichnis mit `chmod -R a+rw /data` schreibend gemacht UND unter */etc/init.d/boot* mit mkdir nachgetragen.
 
-Warum? Weil - wie der Name schon sagt - *var* wird quasi imaginär gebildet und beim booten neu aufgebaut. NFS, alias mdadm benoetigt beim booten den Pfad, sonst bleibt es haengen und damit kein RAID.
-[mdadm](https://docs.linuxfabrik.ch/software/mdadm.html) ist dann auch etwas umstaendlich zu installieren (2xHDD mit RAID=1):
+Warum? Weil - wie der Name schon sagt - *var* wird quasi imaginär gebildet und beim booten neu aufgebaut. NFS, alias mdadm, benoetigt beim booten den Pfad, sonst bleibt es haengen und damit kein RAID.
+[mdadm](https://docs.linuxfabrik.ch/software/mdadm.html) ist dann auch etwas umfangreicher in der Installation (hier: 2xHDD mit RAID=1):
 `mdadm --create /dev/md/name /dev/sda1 /dev/sdb1 --level=1 --raid-devices=2`
-Ueblicherweise wird das /dev/mdx angegeben, je nach System (hier OpenWrt!) in der */etc/fstab* und/oder MountPoint nicht mit der *uuid* bekannt machen.
+Ueblicherweise wird das /dev/mdx angegeben, je nach System (hier OpenWrt!) in der */etc/fstab* und/oder MountPoint, aber nicht mit der *uuid* bekannt machen.
 Anschliessend die mdadm.conf erzeugen: `mdadm --detail --scan > /etc/mdadm.conf`
 Ein `mdadm --assemble /dev/mdx` startet den Server, ggf. mit `cat /proc/mdstat` nachschauen was abgeht. Auch ein `mdadm -D /dev/md0`ist behilflich.
 Und letztlich: `sudo exportfs -ra`
