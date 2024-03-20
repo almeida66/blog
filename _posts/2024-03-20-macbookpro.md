@@ -1,5 +1,5 @@
 ---
-macintosh
+tags: macintosh
 ---
 ##MacBook Pro
 Der MacBook gehört ja nicht wirklich zu macintosh, aber der blog Zuordnung halber isses es egal.
