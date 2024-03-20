@@ -2,7 +2,7 @@
 tags: macintosh
 ---
 ## MacBook Pro
-Der MacBook gehört ja nicht wirklich zu macintosh, aber der blog Zuordnung halber isses es egal.
+Der MacBook gehört ja nicht wirklich zu macintosh, aber der blog Zuordnung halber isses egal.
 
 Vor einiger Zeit fanden 2 verranzte whities [A1181](https://everymac.com/systems/apple/macbook/specs/macbook_2.0_white.html) den Weg zu mir ins Haus. Mit intel CoreDuo sind diese auch win fähig, was gleich ausprobiert wurde. Hat auch soweit geklappt und mit bootcamp wurden auch fast alle Treiber erkannt. Da die CPUs fest verlötet sind, ist eine Upgradefähigeit eher stark eingeschränkt. Da helfen auch keine SSD oder RAM-Erweiterung.
 Mit ubuntu laufen diese aber schnell genug.
